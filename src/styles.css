@@ -1,0 +1,141 @@
+.App {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.input {
+    box-shadow: 0px 0px 5px rgb(173, 173, 173);
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    border: 1px solid grey;
+    border-radius: 0 10px 10px 0;
+    padding-left: 10px;
+
+}
+.card {
+  width: 300px;
+  height:570px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 10px rgb(191, 191, 191);
+    border-radius: 0px 0px 10px 10px;
+    margin-right: 30px;
+    margin-top: 25px;
+
+}
+.main {
+  width:270px;
+  display:flex;
+  flex-wrap:wrap;
+  position: relative;
+  border-bottom: 2px solid rgb(187, 187, 187);
+  padding-bottom: 20px;
+}
+.title{
+    width: 150px;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.details {
+    width:85px;
+    height: 30px;
+    font-size: 16px;
+    background-color: transparent;
+    color: #45a5f9;
+    border: 2px solid #45a5f9;
+    border-radius: 5px;
+    margin-top: 50px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.price {
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    width:270px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: rgb(91, 89, 89);
+}
+.buy, .bought{
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    margin-left: 10px;
+    font-size: 14px;
+    background-color: rgb(51, 99, 188); 
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 400;
+}
+.bought{
+    background-color: #45a5f9;
+    cursor:not-allowed;
+}
+.delete {
+  margin-left:10px;
+  font-size:12px;
+  color: red;
+  cursor: pointer;
+}
+.delete:hover{
+    text-decoration: dashed;
+    cursor: pointer;
+}
+
+.open-details{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background-color: #fff;
+    left: 180px;
+    top: -50px;
+    box-shadow: 1px 1px 5px grey;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    z-index: 3;
+    font-size: 18px;
+    text-align: center;
+}
+.close-details {
+    height: 15px;
+    background-color: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+}
+
+.img img{
+   width: 300px;
+   height: 230px;
+   box-shadow: 1px 1px 5px rgb(0, 64, 128);
+}
+
+.sneak-list {
+  width:100%;
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.is-error {
+    box-shadow: 0px 0px 5px red;
+}
+
+.no-error {
+    box-shadow: 0px 0px 5px green;
+}
